@@ -1,0 +1,79 @@
+body {
+    background-image: url("https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5em;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h5 {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    text-align: center;
+    font-size: 1em;
+}
+
+.banner{
+    text-align: center;
+    outline: solid;
+}
+
+p {
+    text-align: justify;
+    margin: 0 5px;
+}
+
+/* .bottomText {
+    outline: solid;
+} */
+
+
+/* This is to set up the three columns  */
+
+.column{
+    float: left;
+    width: 33.33%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* this is to set up the classifieds */
+
+.column2 {
+    float: left;
+    width: 25%;
+}
+
+.row2::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 450px) {
+    .column2 {
+        width: 100%;
+    }
+}

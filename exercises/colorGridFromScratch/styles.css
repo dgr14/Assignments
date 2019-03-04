@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box; 
+    font-size: 0px;
+}
+
+.container{
+    width: 100%;
+}
+
+.box {
+    height: 10vh;
+    border: 5px solid white;
+}
+
+.topPink {
+    display: table-row;
+    background-color: #F5C6D6;
+    float: left;
+    width: 100%;
+}
+
+.fourPink {
+    display: grid;
+    background-color: #EE2E84;
+    float: left;
+    width: 25%;
+}
+
+.twoBlue {
+    background-color: #85CFD8;
+    float: left;
+    width: 50%;
+}
+
+#green {
+    background-color: #8DC63F;
+    float: left;
+    width: 75%;
+}
+
+#orange {
+    background-color: #E76E34;
+    float: left;
+    width: 25%;
+}
+
+.topRow::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.secondRow::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.thirdRow::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bottomRow::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
