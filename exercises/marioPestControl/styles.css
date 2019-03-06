@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+
+.baddieDisplay{
+    display: flex;
+    align-items: space-between;
+    justify-items: space-around;
+
+}
+
+input{
+    display: inline-block;
+    float: right;
+    clear: right;
+    width: 250px;
+    text-align: right;
+}
+
+#goombaInput, #bobombInput, #cheepcheepInput{
+    display: inline-block;
+    
+}
+button{
+    display: block flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.baddie{
+    padding: 10px 0;
+}

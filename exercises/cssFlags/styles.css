@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: ;
+
+}
+.red-square {
+    height: 400px;
+    width: 600px;
+    background-color: red;
+
+}
+
+.green-square {
+    background-color: green;
+    height: 250px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.white-cirlce {
+    background-color: white;
+
+
+
+}
+
+.green-circle {
+
+
+}
+
+.centered {
+    display: flex;
+
+}
