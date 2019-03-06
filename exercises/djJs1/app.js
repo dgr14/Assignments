@@ -62,12 +62,3 @@ document.addEventListener("keydown", function(e){
         }
     }
 )
-
-
-
-// var addButton = document.getElementbyId("add")
-//     addButton.addEventListener("click", function(event){
-//         var inputBox = document.getElementById("input")
-//         var inputText = inputBox.value
-//         event.target.textContent = inputText
-//     }) 
