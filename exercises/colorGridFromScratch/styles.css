@@ -13,7 +13,7 @@
 }
 
 .topPink {
-    display: table-row;
+    display: grid;
     background-color: #F5C6D6;
     float: left;
     width: 100%;
@@ -66,5 +66,50 @@
     content: "";
     display: table;
     clear: both;
+}
+
+@media (max-width: 550px){
+    body{
+        background-color: black;
+    }
+    .box{
+        border: 5px solid black;
+    }
+
+    .topPink{
+        width: 100%;
+    }
+
+    .fourPink{
+        float: none;
+        width: 100%;
+    }
+
+    .twoBlue{
+        float: none;
+        width: 100%;
+    }
+
+    #green{
+        float: none;
+        width: 100%;
+    }
+
+    #orange{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media(min-width: 1000px){
+    .box{
+        height: 24vh;
+    }
+    body{
+        background-color: yellow;
+    }
+    .box{
+        border: 5px solid yellow;
+    }
 }
 
