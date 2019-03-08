@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+.container{
+    background-color: black;
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.5em;
+    /* text */
+    text-align: center;
+}
+div{
+    outline: 2px solid black;
+    background-color: pink;
+}
+.one{
+    background-color: red;
+}
+.two{
+    background-color: blue;
+}
+.three{
+    background-color: green;
+    grid-column: 4/2;
+}
+.four{
+    background-color: purple
+}
+.five{
+    grid-column: 1 / -1;
+}
