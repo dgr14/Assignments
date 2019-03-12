@@ -24,3 +24,4 @@ form.submit.addEventListener("click", function(e){
     Dietary Restrictions: ${dietArr.join(", ")}
     `)
 })
+rm 

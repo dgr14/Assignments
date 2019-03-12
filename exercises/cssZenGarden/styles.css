@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+/* TOP OF THE PAGE */
+.topContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.allDesigns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+}
+h1{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+}
+h2{
+    font-weight: normal;
+}
+/* MIDDLE TEXT BOXES */
+p{  
+    color: #325050;
+    font-size: 1em;
+    font-family: 'Libre Baskerville', sans-serif;
+    margin: 0.75em 1.5em;
+    line-height: 1.5em;
+
+}
+.middleTextContainer{
+    background-color: lightgreen;
+}
+h3{
+    color: #325050;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: normal;
+    margin: 0 1.5em;
+    padding-top: 1.2em;
+}
+/* FOOTER */
+.books{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    align-content: center;
+    justify-content: center;
+}
+h4{
+    padding: 25px;
+
+}
