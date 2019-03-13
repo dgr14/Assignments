@@ -58,7 +58,7 @@ function run(){
         }
     }
 }
-
+// Attack Enemy
 function fight(){
     while (health > 0){
         if (1 in 2){
