@@ -21,7 +21,7 @@ class Enemy {
         this.name = props.name
         this.health = props.health
         this.strength = props.strength
-        this.reward = rewards.[Math.floor(Math.random() * rewards.length + 1)]
+        this.reward = rewards[Math.floor(Math.random() * rewards.length + 1)]
     }
 }
 

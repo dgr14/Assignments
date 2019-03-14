@@ -17,3 +17,4 @@ const reduced = numArray.reduce((sum, x) => {
 }, {})
 
 console.log(reduced)
+
