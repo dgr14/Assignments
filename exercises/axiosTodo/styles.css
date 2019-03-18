@@ -1,0 +1,14 @@
+*{
+    background-color: black;
+}
+
+.container{
+    background-color: ivory;
+    border: 2px solid black;
+    padding: 2em;
+}
+
+form, input{
+    display: inline;
+    background-color: white;
+}

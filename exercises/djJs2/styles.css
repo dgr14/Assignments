@@ -1,0 +1,39 @@
+* {
+    background-color: #202020;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 5px;
+    
+}
+
+.box{
+    background-color: whitesmoke;
+    opacity: 0.9;
+    text-align: center;
+    height: 100px;
+    width: auto;
+    border-radius: 1.5px;
+    
+}
+
+.box:hover{
+    /* background-color: lightseagreen; */
+}
+
+.row1:hover{
+    background-color: greenyellow;
+}
+.row2:hover{
+    background-color: aquamarine;
+}
+.row3:hover{
+    background-color: lightpink;
+}
+.row4:hover{
+    background-color: yellow;
+}
