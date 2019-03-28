@@ -4,7 +4,7 @@
 
 /* TOP OF THE PAGE */
 .topContainer{
-    background-image: url()
+    background-image: url();
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,7 +34,6 @@ p{
     font-family: 'Libre Baskerville', sans-serif;
     margin: 0.75em 1.5em;
     line-height: 1.5em;
-
 }
 .middleTextContainer{
     background-color: rgba(138,188,159,0.5);
@@ -48,23 +47,25 @@ h3{
     padding-top: 1.2em;
 }
 /* FOOTER */
-.books{
+ul{
     display: grid;
-    grid-template-columns: 100px 100px;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 100px 100px 100px 100px;
     align-content: center;
     justify-content: center;
 }
-h4{
-    padding: 25px;
+li{
+    display: block;
+    margin: 0.25em 0;
+    font-size: 1.2em;
 }
-.footer{
+#bookAd p{
     background-image: url(http://www.csszengarden.com/214/contours.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/koi.jpg);
     background-size: auto, auto, auto, cover;
-    color: rgba(255, 255, 255, 0.4);
     font-size: 2em;
     margin-left: 0;
     margin-right: 0;
     text-align: center;
-
+    color: lightgray !important;
+    
 }
